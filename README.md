@@ -4,7 +4,7 @@ This is an exercise in Codecool on 'Week12A'.
 
 In this task I had to create a simple login application. The GUI is a simple HTML page where the user can write in a username and a password and then the user can push a button which sends the written data to a servlet.
 
-If the username and password are correct, the server redirects the user to a profile page where the application greets the him or her, show something like this: 'Welcome <username> ! Have a nice day !'.
+If the username and password are correct, the server redirects the user to a profile page where the application greets the him or her, show something like this: 'Welcome (username) ! Have a nice day !'.
 If the username and password are incorrect, it shows a message on the login page like 'Bad username or password ! Permission denied' . 
 If user tries to login while she/he is already logged in, warn the user about it and let her/him log out putting a Logout button on the page. I put this button also onto the profile page.
 If user wants to reach the profile page while she/he is not logged in, the servlet redirects her/him to the login page and warn her/him it's necessary to be logged in.
