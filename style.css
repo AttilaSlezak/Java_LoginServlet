@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: lightblue;
+}
+
+a:link {
+	margin: 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+a:visited {
+	margin: 30px;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+a:hover {
+	color: yellow;
+}
+
+div.center_box {
+	background-image: url("pics/silver.png");
+	background-size: 100% auto;
+	background-position: center;
+	background-color: silver;
+	margin: 12% auto;
+	padding: 30px;
+	width: 40%;
+	min-width: 400px;
+	height: 150px;
+	box-shadow: 5px 5px darkgrey;
+	text-align: center;
+}
+
+h1 {
+	font-size: 30px;
+	color: yellow;
+}
+
+.top {
+	position: relative;
+	top: -10px;
+	margin: 0px;
+}
+
+.button {
+	width: 63px;
+}
+
+input {
+	position: left;
+	margin: 7px;
+	width: 160px;
+	background-color: #E2E2E2;
+}
+
+td {
+	text-align: left;
+}
+
+td.field_name {
+	text-align: right;
+}
